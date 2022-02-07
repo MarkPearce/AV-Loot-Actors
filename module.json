@@ -1,0 +1,21 @@
+{
+  "name": "av-loot-actors",
+  "title": "AV Loot Actors",
+  "description": "Loot actors for abomination vaults named by room number and stocked with items from book.",
+  "author": "Mark Pearce",
+  "version": "0.12",
+  "minimumCoreVersion": "9",
+  "compatibleCoreVersion": "9",
+  "packs": [
+    {
+      "name": "av-loot",
+      "label": "AV Loot",
+      "path": "packs/av-loot-actors.db",
+      "entity": "Actor",
+      "module": "av-loot-actors"
+    }
+  ],
+  "system": ["pf2e"],
+  "manifest": "https://github.com/MarkPearce/av-loot-actors/releases/latest/download/module.json",
+  "download": "https://github.com/MarkPearce/av-loot-actors/releases/download/0.12/module.zip"
+}
